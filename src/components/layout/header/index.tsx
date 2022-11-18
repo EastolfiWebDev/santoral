@@ -1,5 +1,6 @@
-import logo from "../../../assets/logo.svg";
-import styles from "./Header.module.css";
+import { A } from '@solidjs/router';
+
+import styles from './Header.module.css';
 
 export function Header() {
     return (
@@ -12,15 +13,10 @@ export function Header() {
                 </ul>
                 <ul>
                     <li>
-                        <a href="#">Link</a>
+                        <A href="/home">Home</A>
                     </li>
                     <li>
-                        <a href="#">Link</a>
-                    </li>
-                    <li>
-                        <a href="#" role="button">
-                            Button
-                        </a>
+                        <A href="/collections">Collections</A>
                     </li>
                 </ul>
             </nav>

@@ -7,3 +7,9 @@ indent_size = 4
 end_of_line = crlf
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+[*.ts]
+quote_type = single
+
+[*.tsx]
+quote_type = single

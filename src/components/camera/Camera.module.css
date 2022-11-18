@@ -1,0 +1,12 @@
+.PhotoPreviewContainer {
+    width: 340px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.PhotoPreview {
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    width: 320px;
+    height: 240px;
+}
